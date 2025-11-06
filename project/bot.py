@@ -5,6 +5,9 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # Загружаем переменные окружения из .env
 load_dotenv()
+import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+print("Loaded BOT_TOKEN:", BOT_TOKEN)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 print("Loaded BOT_TOKEN:", BOT_TOKEN)  # проверка, что токен прочитан
