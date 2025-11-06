@@ -1,4 +1,3 @@
-# bot.py
 from dotenv import load_dotenv
 import os
 from telegram import Update
