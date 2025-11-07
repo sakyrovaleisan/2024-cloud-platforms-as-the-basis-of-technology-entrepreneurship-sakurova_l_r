@@ -26,8 +26,8 @@
 
 ### Создаkf бота в Telegram
 
-Открыла @BotFather в Telegram
-Отправила команду /newbot
+Открыла @BotFather в Telegram <br>
+Отправила команду /newbot <br>
 <img width="1063" height="674" alt="image" src="https://github.com/user-attachments/assets/c2ceca7a-412b-48de-909c-e92d9ca8c3f2" />
 
 Придумала название бота - TeamPulse
@@ -47,9 +47,11 @@
 <img width="802" height="382" alt="image" src="https://github.com/user-attachments/assets/d64d08d4-96f4-450b-bd3c-9d6cc151f219" />
 
 ### Запустила и протестировала
-Установила зависимости: pip install -r requirements.txt
-Запустила бота: python bot.py
-Открыла бота в Telegram и протестировала все функции
+Установила зависимости: pip install -r requirements.txt <br>
+Запустила бота: python bot.py <br>
+Открыла бота в Telegram и протестировала все функции <br>
+
+Видео по ссылке https://drive.google.com/file/d/1NGPdBisuiwiM4fsSuPwVfoxEQ8V91P-s/view?usp=sharing <br>
 
 ## Видео-демо (2-3 минуты)
 В результате данной работы я сделала:
