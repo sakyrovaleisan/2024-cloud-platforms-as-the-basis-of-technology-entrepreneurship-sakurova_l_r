@@ -44,7 +44,8 @@
 Скопировала промпт в LLM <br>
 Получила сгенерированный код <br>
 Вставила токен бота в переменную окружения <br>
-<img width="802" height="382" alt="image" src="https://github.com/user-attachments/assets/d64d08d4-96f4-450b-bd3c-9d6cc151f219" />
+<img width="1288" height="617" alt="image" src="https://github.com/user-attachments/assets/c02eecc9-2e84-4a4f-be82-3dbe70ee9ca2" />
+
 
 ### Запустила и протестировала
 Установила зависимости: pip install -r requirements.txt <br>
