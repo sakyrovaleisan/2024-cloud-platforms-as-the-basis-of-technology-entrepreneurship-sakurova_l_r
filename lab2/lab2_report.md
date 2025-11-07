@@ -42,3 +42,4 @@
 Протестировала работу с данными <br>
 Проверила обработку ошибок <br>
 ### Записала демо с примерами использования
+https://drive.google.com/file/d/10fQlQAO4Mu_vzXTifnZW_6g_iM_fGr6Y/view?usp=share_link
