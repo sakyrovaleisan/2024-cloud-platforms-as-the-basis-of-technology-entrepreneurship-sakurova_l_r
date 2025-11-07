@@ -6,6 +6,6 @@
 **Year:** 2025/2026  
 **Group:** U4225  
 **Author:** Sakurova Leisan  
-**Lab:** Lab2
+**Lab:** Lab 2
 **Date of create:** 07.11.2025  
 **Date of finished:** 07.11.2025  
