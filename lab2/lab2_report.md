@@ -21,6 +21,7 @@
 Для работы с файлами:
 
 Создала CSV файл с тестовыми данными
+
 <img width="396" height="212" alt="image" src="https://github.com/user-attachments/assets/46669220-0134-4d39-ab75-7b2f6fd07f4f" />
 
 ### Шаг 3: Составление промпта для LLM
