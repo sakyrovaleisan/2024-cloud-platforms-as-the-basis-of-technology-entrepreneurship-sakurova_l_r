@@ -36,6 +36,7 @@
 ### Шаг 5: Тестирование
 
 Запустила бота: python bot.py
+
 <img width="378" height="146" alt="image" src="https://github.com/user-attachments/assets/13f4b09a-47eb-41a2-a2f3-4aab864f00d9" />
 
 Протестировала работу с данными <br>
