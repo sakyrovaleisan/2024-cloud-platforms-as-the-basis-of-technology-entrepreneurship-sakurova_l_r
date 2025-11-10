@@ -32,14 +32,18 @@
 <img width="740" height="687" alt="image" src="https://github.com/user-attachments/assets/8517778b-512e-47f7-abcc-2c2b1b08443e" />
 
 Добавила .gitignore
+
 <img width="603" height="704" alt="image" src="https://github.com/user-attachments/assets/ea03c851-d60d-4d80-8475-df9b4b11696b" />
 
 Создала requirements.txt
+
 <img width="588" height="738" alt="image" src="https://github.com/user-attachments/assets/95186ca7-5f98-47ff-a6e8-d8e486c4c078" />
 
 ### Деплой
 Установила ngrok
 Зарегистрировалась и получила токен
+
+<img width="577" height="151" alt="image" src="https://github.com/user-attachments/assets/0a859794-2d9a-49fb-87f9-872d1dd87a94" />
 
 Запустила бота
 <img width="377" height="399" alt="image" src="https://github.com/user-attachments/assets/7ef75df7-e0d0-4f07-ba05-9be0333b7f4f" />
