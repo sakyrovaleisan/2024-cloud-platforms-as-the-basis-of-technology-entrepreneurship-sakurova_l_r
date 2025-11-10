@@ -28,6 +28,7 @@
 Токен хранится в переменных окружения <br>
 
 Создала .env файл
+
 <img width="740" height="687" alt="image" src="https://github.com/user-attachments/assets/8517778b-512e-47f7-abcc-2c2b1b08443e" />
 
 Добавила .gitignore
