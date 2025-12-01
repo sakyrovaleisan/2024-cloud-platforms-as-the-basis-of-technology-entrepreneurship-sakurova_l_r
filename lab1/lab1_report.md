@@ -31,6 +31,7 @@
 ### Подключилась к VM через SSH и выполнила через команду gsutil копирование файлов на мою VM.
 С помощью утилиты gsutils нашла бакет lab1-bucket-itmo и скопировала 3 файла в локальную папку на VM. Использовала команду ls -lah 
 <img width="896" height="653" alt="image" src="https://github.com/user-attachments/assets/637165aa-9f69-48b2-8f07-9a29af0ceff7" />
+
 Удалила за собой все созданные сервисы.
 <img width="857" height="687" alt="image" src="https://github.com/user-attachments/assets/cd6dbf1c-1a77-4593-83f2-87d933b7580e" />
 <img width="939" height="554" alt="image" src="https://github.com/user-attachments/assets/a5bc02af-1582-4e4d-93a3-d69ffafa9497" />
