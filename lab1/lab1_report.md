@@ -36,3 +36,8 @@
 <img width="857" height="687" alt="image" src="https://github.com/user-attachments/assets/cd6dbf1c-1a77-4593-83f2-87d933b7580e" />
 <img width="939" height="554" alt="image" src="https://github.com/user-attachments/assets/a5bc02af-1582-4e4d-93a3-d69ffafa9497" />
 
+### Исследование управления правами доступа
+
+Вернулся в консоль IAM и изменил роль сервисного аккаунта с Storage Admin на Compute Viewer.
+Попытался повторить операцию копирования файлов - операция завершилась ошибкой.
+Сделал вывод о критической важности назначения правильных ролей для выполнения операций.
