@@ -41,3 +41,6 @@
 Выбраны файлы и инициирована операция перемещения в папку
 
 4. Настройка публичного доступа:
+<img width="1396" height="712" alt="image" src="https://github.com/user-attachments/assets/a590230e-2f77-4350-9987-172968fcd75b" />
+<img width="498" height="109" alt="image" src="https://github.com/user-attachments/assets/9a127730-4556-43f4-b404-66c3bbb3691a" />
+
