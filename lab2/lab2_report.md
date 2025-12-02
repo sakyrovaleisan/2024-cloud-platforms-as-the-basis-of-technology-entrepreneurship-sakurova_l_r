@@ -23,6 +23,7 @@
 Окончание деплоя: После создания сервис успешно перешел в статус Ready (Готов).
 <img width="1397" height="708" alt="image" src="https://github.com/user-attachments/assets/645e4114-ea80-4945-a36c-8e07283f0bbe" />
 
+# Логи и метрики
 После чего изучила логи и метрик сервиса, которые включали:
 записи о старте контейнера,
 HTTP-запросы к сервису (метод GET, код ответа 200),
@@ -31,3 +32,23 @@ HTTP-запросы к сервису (метод GET, код ответа 200),
 успешную обработку запросов без ошибок,
 использование ресурсов (CPU/Memory),
 задержку обработки (latency) для отдельных запросов. Таким образом, было продемонстрировано, как с помощью логов Cloud Run можно контролировать работу сервиса и диагностировать его состояние, а с помощью метрик отслеживать нагрузку на сервис и его производительность.
+логи:
+<img width="1396" height="716" alt="image" src="https://github.com/user-attachments/assets/36514438-c16c-4525-b415-39a3bfc01e52" />
+<img width="1390" height="713" alt="image" src="https://github.com/user-attachments/assets/680434fc-8f3a-415a-b481-447e7e664feb" />
+
+
+метрики:
+Я изучила вкладку "Метрики" (Metrics), чтобы проверить работу автоматического масштабирования.
+
+Масштабирование до нуля: График "Container instance count" (Количество экземпляров контейнера) наглядно показал масштабирование до нуля: после роста до 1.
+Анализ нагрузки: Графики "Request counts" и "Latency" зафиксировали мои тестовые запросы.
+<img width="1401" height="713" alt="image" src="https://github.com/user-attachments/assets/ad0b6c5a-c873-45ba-96b7-9d04cab7eac3" />
+<img width="1401" height="718" alt="image" src="https://github.com/user-attachments/assets/bc9a07db-0448-4683-8aaa-6663435d45ef" />
+<img width="1394" height="719" alt="image" src="https://github.com/user-attachments/assets/d1ce5b54-779b-4d11-b204-36351d0fb4d6" />
+<img width="1395" height="708" alt="image" src="https://github.com/user-attachments/assets/988e0193-2605-41fd-862d-3bd490e85337" />
+<img width="1394" height="711" alt="image" src="https://github.com/user-attachments/assets/e26bf10b-85cf-4060-86d8-c1426eba5dc3" />
+<img width="1400" height="713" alt="image" src="https://github.com/user-attachments/assets/0a4e52a4-76ab-4bb4-8c5b-4413cc9e00b1" />
+
+# Изменение конфигурации: смена порта на 8090
+
+Я начала эксперимент с портами, чтобы проверить, как контейнер реагирует на изменение настроек Cloud Run.
