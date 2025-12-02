@@ -33,9 +33,11 @@
 2. В созданный бакет были загружены четыре тестовых изображения:
 <img width="1431" height="708" alt="image" src="https://github.com/user-attachments/assets/ba428b98-982c-463b-8d8f-aff9f455d0a0" />
 
-Создана папка:
+3. Создана папка:
 <img width="1397" height="714" alt="image" src="https://github.com/user-attachments/assets/a2379156-7106-4cee-8cec-e5a4257b1f07" />
 
 Для организации данных внутри объектного хранилища была создана папка, и загруженные файлы были в нее перемещены.
 <img width="1397" height="714" alt="image" src="https://github.com/user-attachments/assets/7d7c4e69-2068-421a-b208-315acef51f5c" />
 Выбраны файлы и инициирована операция перемещения в папку
+
+4. Настройка публичного доступа:
