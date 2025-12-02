@@ -44,3 +44,7 @@
 <img width="1396" height="712" alt="image" src="https://github.com/user-attachments/assets/a590230e-2f77-4350-9987-172968fcd75b" />
 <img width="498" height="109" alt="image" src="https://github.com/user-attachments/assets/9a127730-4556-43f4-b404-66c3bbb3691a" />
 
+5. Генерация публичных ссылок
+
+После настройки публичного доступа получена прямая ссылка на файл.
+https://storage.googleapis.com/sakurova-lab3-variant2/folder-var2/IMAGE%202025-10-24%2014%3A25%3A44.jpg
