@@ -19,9 +19,13 @@
 
 Для выполнения работы был выбран существующий проект, в котором имеются соответствующие права доступа. 
 
-Произведено создание бакета с уникальным именем lab3-storage-tmeshcheryakova и определенными политиками.
-
+Произведено создание бакета с уникальным именем и определенными политиками.
 Имя и регион: Указано уникальное имя и выбран регион us-central1 (Iowa).  
 Класс хранения и доступ: Выбран класс хранения Standard и изначально установлен режим контроля доступа Детальный (Fine-grained).  
 Создание: После настройки политики Soft delete и окончательной проверки бакет был успешно создан.
 <img width="890" height="405" alt="image" src="https://github.com/user-attachments/assets/364a5348-f954-4389-812a-75330cbc890c" />
+<img width="934" height="424" alt="image" src="https://github.com/user-attachments/assets/be179d29-3639-4512-a5ef-c1344fb5e0c7" />
+<img width="821" height="454" alt="image" src="https://github.com/user-attachments/assets/e8b6d800-c8d0-4857-a26a-09466877a9b6" />
+
+бакет был успешно создан:
+<img width="1396" height="715" alt="image" src="https://github.com/user-attachments/assets/f9935bcc-bb72-44a6-85bb-6eb7490f704f" />
