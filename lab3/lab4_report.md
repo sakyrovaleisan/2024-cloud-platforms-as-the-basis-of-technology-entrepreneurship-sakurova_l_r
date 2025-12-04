@@ -107,3 +107,31 @@ Prod: 30 000+ запросов/день (~900k+/мес) <br>
 День 20 (2–4ч) <br>
 Задача: Репетиция презентации, финальная правка. Сдача/отправка. <br>
 Артефакт: Презентация (5–10 слайдов) + файл отчёта. <br>
+
+# Экономическая модель <br>
+## MVP (15–30k запросов/мес) <br>
+Cloud Run / Cloud Functions (compute for backend): $8–40 <br>
+Cloud Storage (1–5 GB + egress): $1–5 <br>
+Firestore (metadata, small volume): $3–10 <br>
+ML (inference): если используем внешний API / Vertex pay-per-call: $30–150 (в зависимости от модели / числа вызовов) <br>
+Monitoring/Logging (free tier + small usage): $0–10 <br>
+## Итого MVP: ≈ $40–215 / мес (обычно целесообразно прогнозировать $50–120) <br>
+
+## Pilot (90–300k запросов/мес) <br>
+Cloud Run / GKE Autopilot (высокая загрузка): $50–250 <br>
+Storage (5–20 GB): $5–15 <br>
+Firestore: $10–40 <br>
+Memorystore (Redis) — small instance: $20–60 <br>
+Pub/Sub / Cloud Tasks: $5–20 <br>
+ML (частые вызовы): $200–800 (или меньше при кэше) <br>
+## Итого Pilot: ≈ $290–1,185 / мес <br>
+
+## Prod (900k+ запросов/мес) <br>
+GKE Standard (мульти-регион, ноды, autoscaling): $400–2,000+ <br>
+Cloud SQL (или managed DB) HA: $70–300 <br>
+Firestore multi-region: $50–200 <br>
+Memorystore (HA + persistence): $100–400 <br>
+Vertex AI: $1,000–5,000+ <br>
+Storage (50–200 GB): $10–60 <br>
+Networking, CDN, monitoring: $50–300 <br>
+## Итого Prod: ≈ $1,680–8,260+ / мес <br>
